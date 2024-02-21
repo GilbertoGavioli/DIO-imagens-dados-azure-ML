@@ -1,0 +1,156 @@
+Azure AI  |  Vision Studio
+
+Vision Studio
+
+Detect faces in an image
+Detect faces in an image
+
+Detect the location of one or more human faces in images, along with attributes such as pose, face mask and facial landmarks.
+Platforms
+
+Cloud
+Try it out
+
+Choose a different resource.
+Use one of your own files or choose from a sample below.
+
+Drag and drop a file here
+or
+Browse for a file
+or
+Take a photo
+Picture of a woman in a red shirt
+Picture of José Mário Vaz smiling and holding a face mask
+Picture of two women looking at something on a table
+Picture of a woman wearing a face mask
+
+The information collected from your photo for this demo does not predict or classify facial attributes or create a facial template, nor is it used to identify you.
+[
+  {
+    "recognitionModel": "recognition_01",
+    "faceRectangle": {
+      "width": 63,
+      "height": 91,
+      "left": 27,
+      "top": 17
+    },
+    "faceLandmarks": {
+      "pupilLeft": {
+        "x": 37.9,
+        "y": 47
+      },
+      "pupilRight": {
+        "x": 65.7,
+        "y": 43.4
+      },
+      "noseTip": {
+        "x": 46.6,
+        "y": 62.2
+      },
+      "mouthLeft": {
+        "x": 46.3,
+        "y": 85.1
+      },
+      "mouthRight": {
+        "x": 64.7,
+        "y": 82.3
+      },
+      "eyebrowLeftOuter": {
+        "x": 28.6,
+        "y": 40.2
+      },
+      "eyebrowLeftInner": {
+        "x": 42,
+        "y": 37.8
+      },
+      "eyeLeftOuter": {
+        "x": 33.8,
+        "y": 47.8
+      },
+      "eyeLeftTop": {
+        "x": 37.7,
+        "y": 44.8
+      },
+      "eyeLeftBottom": {
+        "x": 37.7,
+        "y": 49
+      },
+      "eyeLeftInner": {
+        "x": 42.4,
+        "y": 46.5
+      },
+      "eyebrowRightInner": {
+        "x": 54.4,
+        "y": 35.8
+      },
+      "eyebrowRightOuter": {
+        "x": 76.4,
+        "y": 36
+      },
+      "eyeRightInner": {
+        "x": 60.8,
+        "y": 44.3
+      },
+      "eyeRightTop": {
+        "x": 64.8,
+        "y": 41
+      },
+      "eyeRightBottom": {
+        "x": 65.8,
+        "y": 45.4
+      },
+      "eyeRightOuter": {
+        "x": 71.3,
+        "y": 43
+      },
+      "noseRootLeft": {
+        "x": 46,
+        "y": 46.9
+      },
+      "noseRootRight": {
+        "x": 53.2,
+        "y": 45.5
+      },
+      "noseLeftAlarTop": {
+        "x": 43.9,
+        "y": 58.6
+      },
+      "noseRightAlarTop": {
+        "x": 55.9,
+        "y": 57.2
+      },
+      "noseLeftAlarOutTip": {
+        "x": 42.9,
+        "y": 65.8
+      },
+      "noseRightAlarOutTip": {
+        "x": 59.6,
+        "y": 64.4
+      },
+      "upperLipTop": {
+        "x": 51.4,
+        "y": 76
+      },
+      "upperLipBottom": {
+        "x": 52.1,
+        "y": 79.4
+      },
+      "underLipTop": {
+        "x": 54.3,
+        "y": 88.9
+      },
+      "underLipBottom": {
+        "x": 55.1,
+        "y": 93.4
+      }
+    },
+    "faceAttributes": {
+      "mask": {
+        "type": "noMask",
+        "noseAndMouthCovered": false
+      }
+    }
+  }
+]
+Next steps
+Use detect faces in an image in your own application. Start with sample code and then deploy detect faces in an image to your application with the Face SDK.
